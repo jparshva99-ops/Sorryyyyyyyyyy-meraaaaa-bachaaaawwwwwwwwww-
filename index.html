@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Nishka ❤️</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Georgia, serif;
+    background:#080008;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* Cinematic opening */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:25px;
+    background:
+    radial-gradient(circle at center,#5c153d 0%,#190016 45%,#050005 100%);
+    position:relative;
+}
+
+.hero-content{
+    animation:fadeIn 2s ease;
+}
+
+.small{
+    letter-spacing:5px;
+    font-size:13px;
+    color:#e9b3c9;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:52px;
+    color:#ff8fb1;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#ddd;
+    font-size:18px;
+}
+
+.scroll{
+    margin-top:50px;
+    color:#ffabc5;
+    animation:updown 1.5s infinite;
+}
+
+/* Sections */
+
+section{
+    padding:80px 22px;
+    text-align:center;
+}
+
+.title{
+    font-size:35px;
+    color:#ff8fb1;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    color:#bbb;
+    max-width:600px;
+    margin:auto;
+    line-height:1.7;
+}
+
+/* Photos */
+
+.photo{
+    width:85%;
+    max-width:350px;
+    border-radius:25px;
+    margin:30px auto;
+    display:block;
+    box-shadow:0 0 35px rgba(255,100,160,.35);
+    border:2px solid rgba(255,150,190,.3);
+}
+
+.photo-small{
+    width:75%;
+    max-width:280px;
+}
+
+/* Sorry card */
+
+.card{
+    max-width:600px;
+    margin:auto;
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,160,190,.2);
+    border-radius:30px;
+    padding:35px 25px;
+    backdrop-filter:blur(10px);
+    box-shadow:0 0 40px rgba(255,80,150,.15);
+}
+
+.card p{
+    color:#ddd;
+    line-height:1.9;
+    font-size:17px;
+}
+
+.highlight{
+    color:#ff91b3;
+    font-weight:bold;
+}
+
+/* Story */
+
+.story{
+    max-width:650px;
+    margin:auto;
+    text-align:left;
+}
+
+.story-box{
+    padding:25px;
+    margin:20px 0;
+    border-left:3px solid #ff719d;
+    background:rgba(255,255,255,.04);
+    border-radius:0 20px 20px 0;
+}
+
+.story-box h3{
+    color:#ff91b3;
+    margin-bottom:10px;
+}
+
+.story-box p{
+    color:#ccc;
+    line-height:1.7;
+}
+
+/* Button */
+
+button{
+    border:none;
+    padding:16px 30px;
+    border-radius:40px;
+    font-size:17px;
+    margin-top:25px;
+    cursor:pointer;
+    background:linear-gradient(135deg,#ff4f81,#ff86a8);
+    color:white;
+    box-shadow:0 10px 30px rgba(255,60,120,.3);
+    transition:.3s;
+}
+
+button:active{
+    transform:scale(.95);
+}
+
+/* Final */
+
+#final{
+    display:none;
+    min-height:100vh;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    background:
+    radial-gradient(circle,#6b1648,#160013 60%,#000);
+}
+
+#final h1{
+    font-size:42px;
+    color:#ff91b3;
+    margin-bottom:20px;
+}
+
+#final p{
+    font-size:18px;
+    color:#ddd;
+    max-width:500px;
+    line-height:1.8;
+}
+
+/* Hearts */
+
+.heart{
+    position:fixed;
+    bottom:-30px;
+    pointer-events:none;
+    animation:float 6s linear forwards;
+    z-index:10;
+}
+
+/* Animations */
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes updown{
+    50%{
+        transform:translateY(10px);
+    }
+}
+
+@keyframes float{
+    from{
+        transform:translateY(0) rotate(0deg);
+        opacity:1;
+    }
+    to{
+        transform:translateY(-110vh) rotate(360deg);
+        opacity:0;
+    }
+}
+
+@media(max-width:500px){
+
+    .hero h1{
+        font-size:40px;
+    }
+
+    .title{
+        font-size:30px;
+    }
+
+}
+</style>
+</head>
+
+
+<body>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<div class="hero-content">
+
+<div class="small">
+A LITTLE SOMETHING FOR
+</div>
+
+<h1>Nishka ❤️</h1>
+
+<p>Parshva ki biwii...</p>
+
+<div class="scroll">
+↓ Scroll slowly ↓
+</div>
+
+</div>
+
+</div>
+
+
+<!-- NISHKA -->
+
+<section>
+
+<h2 class="title">The Girl I Don't Want To Lose ❤️</h2>
+
+<p class="subtitle">
+There is someone who makes my ordinary days feel special...
+and that person is you, Nishka.
+</p>
+
+<img src="nishka.jpg" class="photo photo-small">
+
+</section>
+
+
+<!-- SORRY -->
+
+<section>
+
+<h2 class="title">I'm Sorry 🥺</h2>
+
+<div class="card">
+
+<p>
+
+Nishka, mujhe pata hai mujhse galti hui hai.
+
+<br><br>
+
+Shayad meri wajah se tum hurt hui,
+aur honestly mujhe iska regret hai.
+
+<br><br>
+
+Main ye page isliye nahi bana raha
+ki bas tum "sorry" sun kar sab bhool jao.
+
+<br><br>
+
+Main bas chahta hoon ki tumhe pata chale
+ki <span class="highlight">tum mere liye important ho.</span>
+
+<br><br>
+
+Agar meri kisi baat se tumhe bura laga,
+then...
+
+<br><br>
+
+<span class="highlight">
+I'm genuinely sorry. ❤️
+</span>
+
+</p>
+
+</div>
+
+</section>
+
+
+<!-- OUR STORY -->
+
+<section>
+
+<h2 class="title">Our Story 📖</h2>
+
+<p class="subtitle">
+Kuch moments chhote hote hain,
+lekin unki memories bohot badi hoti hain.
+</p>
+
+<div class="story">
+
+<div class="story-box">
+
+<h3>Chapter 01 — You ❤️</h3>
+
+<p>
+Phir meri life mein tum aayi...
+aur things started feeling different.
+</p>
+
+</div>
+
+
+<div class="story-box">
+
+<h3>Chapter 02 — Us 🫶</h3>
+
+<p>
+Humari conversations, random fights,
+hasi-mazaak aur woh chhoti-chhoti memories...
+sab mere liye special hain.
+</p>
+
+</div>
+
+
+<div class="story-box">
+
+<h3>Chapter 03 — Today 🥺</h3>
+
+<p>
+Aaj bas itna kehna hai:
+main tumhe hurt nahi karna chahta.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- BOTH PHOTO -->
+
+<section>
+
+<h2 class="title">Us 👫❤️</h2>
+
+<img src="us-both.jpg" class="photo">
+
+<p class="subtitle">
+This picture is just a picture...
+but the person beside me means much more.
+</p>
+
+</section>
+
+
+<!-- FINAL QUESTION -->
+
+<section>
+
+<h2 class="title">
+One Last Thing...
+</h2>
+
+<div class="card">
+
+<p>
+Nishka,
+
+<br><br>
+
+Kya tum apne iss pagal Parshva ko
+ek baar maaf kar dogi? 🥺❤️
+</p>
+
+<button onclick="forgive()">
+Maaf kiya ❤️
+</button>
+
+</div>
+
+</section>
+
+
+<!-- FINAL SCREEN -->
+
+<section id="final">
+
+<h1>Thank You Nishka 🥹❤️</h1>
+
+<p>
+Ab please gussa chhod do...
+aur ek cute si smile kar do. ❤️
+<br><br>
+— Parshva
+</p>
+
+</section>
+
+
+<script>
+
+/* Floating hearts */
+
+function heart(){
+
+    const h=document.createElement("div");
+
+    h.className="heart";
+    h.innerHTML=["❤️","💗","💕","💖","✨"][Math.floor(Math.random()*5)];
+
+    h.style.left=Math.random()*100+"vw";
+    h.style.fontSize=(18+Math.random()*25)+"px";
+    h.style.animationDuration=(4+Math.random()*4)+"s";
+
+    document.body.appendChild(h);
+
+    setTimeout(()=>{
+        h.remove();
+    },8000);
+}
+
+setInterval(heart,700);
+
+
+/* Forgive */
+
+function forgive(){
+
+    for(let i=0;i<35;i++){
+        setTimeout(heart,i*50);
+    }
+
+    document.getElementById("final").style.display="flex";
+
+    setTimeout(()=>{
+        document.getElementById("final")
+        .scrollIntoView({behavior:"smooth"});
+    },300);
+}
+
+</script>
+
+</body>
+  </html>
